@@ -17,6 +17,7 @@ getWinLose <- function(info, team){
   return(result)
 }
 
+# 3. getPlayerValue
 
 
 # trash

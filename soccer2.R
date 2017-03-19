@@ -42,7 +42,7 @@ levels(df.attempts.ars$location) = c("0","5","4","5","8","7","6","2","2","0","0"
 df.attempts.ars$location = factor(df.attempts.ars$location)
 df.attempts.ars$event_type2 = addNA(df.attempts.ars$event_type2) # add another level to the factor
 
-
+  ### add player attribute function
 
 # start train & test
 X = sqldf("Select time, event_type2, location, bodypart, assist_method, situation, fast_break, home, is_goal from 'df.attempts.ars'")
